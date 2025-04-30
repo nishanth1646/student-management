@@ -3,7 +3,7 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Studentlist() {
-    const [studentList, setStudentList] = useState([]);
+    const [studentList, setStudentList] = useState([])
     const [isLoading, setIsLoading] = useState(true);
     const [searchTerm, setSearchTerm] = useState("");
 
