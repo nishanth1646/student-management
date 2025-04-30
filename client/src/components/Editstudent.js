@@ -6,7 +6,7 @@ function Editstudent() {
     const [studentData, setStudentData] = useState({
         studentID: "",
         firstName: "",
-        lastName: ""
+        lastName: "",
         email: "",
         dob: "",
         department: "",
